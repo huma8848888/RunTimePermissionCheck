@@ -1,0 +1,48 @@
+自己制作的一个运行时权限小工具，方便后续编程使用时的动态权限申请。
+使用了一个button来触发运行时的权限申请，可在程序中通过注释的方式屏蔽掉自己不想要的权限
+普通权限只需要在AndroidManifest中注册即可，无需动态申请。
+欢迎各位朋友补充完善相关功能。
+---迷惘的年代
+2018.4.27
+东北电力大学
+
+以下是普通权限，只需要在AndroidManifest.xml中申请即可。
+
+  android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+  android.permission.ACCESS_NETWORK_STATE
+  android.permission.ACCESS_NOTIFICATION_POLICY
+  android.permission.ACCESS_WIFI_STATE
+  android.permission.ACCESS_WIMAX_STATE
+  android.permission.BLUETOOTH
+  android.permission.BLUETOOTH_ADMIN
+  android.permission.BROADCAST_STICKY
+  android.permission.CHANGE_NETWORK_STATE
+  android.permission.CHANGE_WIFI_MULTICAST_STATE
+  android.permission.CHANGE_WIFI_STATE
+  android.permission.CHANGE_WIMAX_STATE
+  android.permission.DISABLE_KEYGUARD
+  android.permission.EXPAND_STATUS_BAR
+  android.permission.FLASHLIGHT
+  android.permission.GET_ACCOUNTS
+  android.permission.GET_PACKAGE_SIZE
+  android.permission.INTERNET
+  android.permission.KILL_BACKGROUND_PROCESSES
+  android.permission.MODIFY_AUDIO_SETTINGS
+  android.permission.NFC
+  android.permission.READ_SYNC_SETTINGS
+  android.permission.READ_SYNC_STATS
+  android.permission.RECEIVE_BOOT_COMPLETED
+  android.permission.REORDER_TASKS
+  android.permission.REQUEST_INSTALL_PACKAGES
+  android.permission.SET_TIME_ZONE
+  android.permission.SET_WALLPAPER
+  android.permission.SET_WALLPAPER_HINTS
+  android.permission.SUBSCRIBED_FEEDS_READ
+  android.permission.TRANSMIT_IR
+  android.permission.USE_FINGERPRINT
+  android.permission.VIBRATE
+  android.permission.WAKE_LOCK
+  android.permission.WRITE_SYNC_SETTINGS
+  com.android.alarm.permission.SET_ALARM
+  com.android.launcher.permission.INSTALL_SHORTCUT
+  com.android.launcher.permission.UNINSTALL_SHORTCUT
